@@ -10,14 +10,45 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 // import Contador from './components/Contador'
 // import Pai from './components/direta/Pai'
 // import Pai from './components/indireta/Pai'
-import ContadorV2 from './components/contador/ContadorV2'
-
+// import ContadorV2 from './components/contador/ContadorV2'
+// import Diferenciar from './components/Diferenciar'
+// import ParImpar from './components/ParImpar'
+// import Familia from './components/relacao/Familia'
+// import Membro from './components/relacao/Membro'
+// import UsuarioLogado from './components/UsuarioLogado'
+// import ListaProdutos from './components/produtos/ListaProdutos'
+// import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+// import FlexBoxV1 from './components/layout/FlexBoxV1'
+//import FlexBoxV2 from './components/layout/FlexBoxV2'
+// import FlexBoxV3 from './components/layout/FlexBoxV3'
+import FlexBoxV4 from './components/layout/FlexBoxV4'
 
 export default () => {
   return (
     <SafeAreaView style={style.App }>
-      <ContadorV2></ContadorV2>
+      <FlexBoxV4 />
       {/*
+      <FlexBoxV3 />
+      <FlexBoxV2 />
+      <FlexBoxV1 />
+      <DigiteSeuNome></DigiteSeuNome>
+      <ListaProdutosV2></ListaProdutosV2>
+      <ListaProdutos></ListaProdutos>
+        <UsuarioLogado usuario={{nome:"Guilherme", email:"Gui@gmail.com"}}></UsuarioLogado>
+        <UsuarioLogado usuario={{nome:"Ana"}}></UsuarioLogado>
+        <UsuarioLogado usuario={{email:"Jorge@empresa.com"}}></UsuarioLogado>
+      <Familia>
+        <Membro nome="Ricardo" sobrenome="Milos" />
+        <Membro nome="Vanessa" sobrenome="Milos" />
+      </Familia>
+      <Familia>
+        <Membro nome="Ana" sobrenome="Silva" />
+        <Membro nome="Pedro" sobrenome="Silva" />
+      </Familia>
+      <ParImpar num={3}></ParImpar>
+      <Diferenciar></Diferenciar>
+      <ContadorV2></ContadorV2>
       <Pai></Pai>
       <Pai></Pai>
       <Contador inicial={10} passo={15} />
